@@ -1,0 +1,26 @@
+.newsCard {
+  a{
+    color: rgb(53, 53, 53);
+  }
+	&:hover {
+		background-color: rgb(212, 212, 212);
+		transition: background-color 1s;
+	}
+	&__content {
+		display: flex;
+		flex-direction: column;
+		gap: 46px;
+	}
+
+	&__link-data {
+		display: flex;
+    justify-content: space-between;
+		align-items: center;
+	}
+	&__date {
+		font-size: 10px;
+	}
+	&__link {
+		font-size: 10px;
+	}
+}

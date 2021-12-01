@@ -1,0 +1,12 @@
+.footer {
+ padding: 15px 0;
+}
+.content-footer {
+  display:  flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  &__name {
+    font-size:25px;
+    
+  }
+}

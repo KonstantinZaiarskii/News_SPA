@@ -1,0 +1,84 @@
+
+// .contacts-content {
+// 	display: flex;
+// 	justify-content: space-evenly;
+// 	flex-direction: column;
+// }
+// .contacts__container {
+// 	@media (max-width: 767px) {
+// 		gap: 25px;
+// 	}
+// }
+
+// .contacts__block {
+// 	display: flex;
+// 	flex-direction: column;
+// 	justify-content: center;
+// }
+// a {
+// 	color: rgb(40, 57, 209);
+// }
+
+// img {
+// 	max-width: 500px;
+// 	background-size: cover;
+// 	background-repeat: no-repeat;
+// 	@media (max-width: 767px) {
+// 		width: 100%;
+// 	}
+// }
+
+.contacts {
+  a {
+    color: rgb(40, 57, 209);
+  }
+  // .contacts__container
+  &__container {
+    @media (max-width: 767px) {
+      gap: 25px;
+    }
+  }
+  // .contacts__block
+  &__block {
+    display: flex;
+  }
+  // .contacts__block-img
+  &__block-img {
+  }
+  // .contacts__img
+  &__img {
+    max-width: 500px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	@media (max-width: 767px) {
+		width: 100%;
+	}
+  }
+}
+.contacts-content {
+}
+.content {
+  display: flex;
+	justify-content: space-evenly;
+	flex-direction: column;
+  // .content__contacts
+  &__contacts {
+    // .content__contacts_phone
+    &_phone {
+    }
+    // .content__contacts_name
+    &_name {
+    }
+    // .content__contacts_email
+    &_email {
+    }
+    // .content__contacts_special
+    &_special {
+    }
+    // .content__contacts_prog
+    &_prog {
+    }
+  }
+}
+.react {
+}
